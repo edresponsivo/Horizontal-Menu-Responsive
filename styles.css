@@ -142,7 +142,15 @@ main {
 /* lorem section */
 .lorem {
   background-color: aliceblue;
-  height: 50vh;
+  height: fit-content;
   width: 100%;
   padding: 50px;
+}
+.lorem h3 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.lorem p {
+  margin: 2rem 5rem;
+  padding: 2rem;
 }
